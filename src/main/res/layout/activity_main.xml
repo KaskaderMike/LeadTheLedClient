@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#336699"
+    >
+
+    <TextView
+        android:id="@+id/menu_header"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:width="600px"
+        android:height="150px"
+        android:layout_marginTop="150px"
+        />
+
+    <Button
+        android:id="@+id/choose_device_button"
+        android:text="Choose device"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:width="600px"
+        android:height="150px"
+        android:layout_marginTop="300px"
+        android:layout_marginBottom="50px"
+        />
+
+    <Button
+        android:id="@+id/real_time_control_button"
+        android:text="Lead the LED!"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:width="600px"
+        android:height="150px"
+        android:layout_margin="75px"
+        />
+
+    <Button
+        android:id="@+id/animation_button"
+        android:text="Create and display\n animation!"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:width="600px"
+        android:height="150px"
+        android:layout_margin="75px"
+        />
+
+    <Button
+        android:id="@+id/text_button"
+        android:text="Display text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:width="600px"
+        android:height="150px"
+        android:layout_margin="75px"
+        />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

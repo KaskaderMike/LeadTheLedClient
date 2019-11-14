@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AnimationActivity"
+    android:background="#336699"
+    >
+
+
+    <com.example.leadtheled.LedMatrixView
+        android:id="@+id/led_matrix"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20px"
+        />
+
+    <com.example.leadtheled.ColorPickerView
+        android:id="@+id/color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/led_matrix"
+        android:orientation="vertical"
+        android:layout_margin="75px"
+        />
+
+    <Button
+        android:id="@+id/new_matrix"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Add new matrix"
+        android:layout_below="@id/color_picker"
+        android:layout_margin="75px"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Start animation!"
+        android:layout_toRightOf="@id/new_matrix"
+        android:layout_below="@id/color_picker"
+        android:layout_margin="75px"
+        />
+
+</RelativeLayout>
